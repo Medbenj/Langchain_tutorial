@@ -1,5 +1,5 @@
 [project]
-name = "langchainexplore"
+name = "deep-research-agent"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -11,9 +11,4 @@ dependencies = [
     "langchain-google-genai>=4.4.0",
     "markdownify>=1.2.3",
     "tavily-python>=0.8.1",
-]
-
-[tool.uv.workspace]
-members = [
-    "deep-research-agent",
 ]

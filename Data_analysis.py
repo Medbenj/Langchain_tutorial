@@ -63,4 +63,3 @@ stream = agent.stream(
 )
 for snapshot in stream:
     snapshot["messages"][-1].pretty_print()
-    
