@@ -2,8 +2,6 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-
-import os
 from typing import Annotated, Literal
 
 import httpx
