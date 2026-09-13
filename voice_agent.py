@@ -1,4 +1,8 @@
 from typing import AsyncIterator
+from dotenv import load_dotenv
+
+load_dotenv()
+
 import asyncio
 from assemblyai_stt import AssemblyAISTT
 from events import VoiceAgentEvent
