@@ -316,4 +316,4 @@ def run_agentic_rag() -> None:
         last_message = chunk["messages"][-1]
         pretty_print = getattr(last_message, "pretty_print", None)
         if callable(pretty_print):
-            pretty_print()
+            pretty_print()+
